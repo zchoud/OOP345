@@ -1,0 +1,6 @@
+Zian Choudhury
+Zchoudhury
+131048209
+zchoudhury@myseneca.ca
+This workshop introduced the static variables and the two linkages available internal and external. The internal is available within the function scope however does not exist beyond that. The example of this is the counter that when in the function will keep the counter even after leaving the function scope. On the other hand the external or global scope allows for the variable to be accessed in the module and any module that refers to it such as the clock. In both cases this was highly useful in this situation especially for the clock where time is important generally to synchronize. The danger of this variable however is that it lacks security and use should be strictly where absolutely needed. The other topic that was a good review was the use of dynamic memory allocation and the several concepts surrounding it. This includes but not limited to rule of 3 (destructor, copy and assignment), overloading, pointer, memory leak management and virtualization. For this the requirements needed the read string to rather than allocate a fixed section of memory, to use a reallocating memory and using the pointer to address it. 
+

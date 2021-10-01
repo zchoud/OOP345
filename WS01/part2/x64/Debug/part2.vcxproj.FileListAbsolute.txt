@@ -1,0 +1,2 @@
+F:\Documents\School\Seneca\Semester 3\OOP345\OOP-Workshops\WS01\part2\x64\Debug\part2.exe
+F:\Documents\School\Seneca\Semester 3\OOP345\OOP-Workshops\WS01\part2\x64\Debug\part2.pdb
