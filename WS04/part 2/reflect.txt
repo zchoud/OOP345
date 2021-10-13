@@ -1,0 +1,7 @@
+Zian Choudhury
+Zchoudhury
+131048209
+zchoudhury@myseneca.ca
+
+The difference between composition, association and aggregation is the level of relation with the object being paired with. Aggregation is when you are simply borrowing a resource. Composition is where the object handles and is responsible for the object. Association is simply the overall combination of both in that there is a relation. For the program the reservation for the ConfirmReservation is the aggregate. If ConfirmReservation was to be destroyed, the reservation would still exist. On the other hand, for the Restaurant the restaurant handles the reservations thus if restaurant is destroyed then so will reservation. The main difference between the move and copy functions of both is that aggregation is simply moving pointer to the borrowed resource whereas composition is moving the resource. One difficulty that I came across and a learning opportunity was the resizing of the array where initially I had been deleting the temporary array causing the actual copy to fail. Additionally working with the array of pointers and the syntax of it was new to me. 
+
