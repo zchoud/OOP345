@@ -4,7 +4,6 @@
 #include <iostream>
 #include <sstream>
 #include <iomanip>
-
 namespace sdds {
 	class Book
 	{
@@ -20,11 +19,18 @@ namespace sdds {
 		Book();
 		const std::string& country() const;
 		const size_t& year() const;
+		const std::string& title() const;
 		double& price();
 		Book(const std::string& strBook);
-		
+		template <typename T>
+		void fixSpelling(T& spellChecker);
 		friend std::ostream& operator<<(std::ostream& os, Book& book);
 	};
+	template<typename T>
+	inline void Book::fixSpelling(T& spellChecker)
+	{
+		spellChecker(this->c_desc);
+	}
 }
 #endif // !BOOK_H
 

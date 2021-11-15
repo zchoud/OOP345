@@ -1,0 +1,6 @@
+Zian Choudhury
+Zchoudhury
+131048209
+zchoudhury@myseneca.ca
+
+This workshop makes use of containers specifically the vector and list. This does handle the allocation and deallocation. However, the allocation is manually deallocated because the new keyword is used to create the pointers since the vector is a collection of pointers. When loading data, the current implementation handles the errors on a case-by-case basis with the error handling taking care in the function. The other method would be to provide an error handling function that would check the object if it were valid and throw an error should it not be valid. The pointer is needed as this makes it so you can better handle the between the derived and base class using a pointer of the base class. In the code when using the pointer of simply Vehicle this would not have been as simple should the vector been the objects. If this was a simpler vector or list it would have been better to use the object so that there is not deallocation needed. 

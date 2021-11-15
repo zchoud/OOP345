@@ -1,0 +1,7 @@
+﻿  SongCollection.cpp
+F:\Documents\School\Seneca\.Semester 3\OOP345\WS07\part 1\SongCollection.h(26,53): error C2804: binary 'operator =' has too many parameters
+F:\Documents\School\Seneca\.Semester 3\OOP345\WS07\part 1\SongCollection.h(27,53): error C2804: binary 'operator =' has too many parameters
+  w7_p1.cpp
+F:\Documents\School\Seneca\.Semester 3\OOP345\WS07\part 1\SongCollection.h(26,53): error C2804: binary 'operator =' has too many parameters
+F:\Documents\School\Seneca\.Semester 3\OOP345\WS07\part 1\SongCollection.h(27,53): error C2804: binary 'operator =' has too many parameters
+  Generating Code...
